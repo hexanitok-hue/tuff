@@ -1,11 +1,1 @@
-local HttpService = game:GetService("HttpService")
-
-local url = "https://raw.githubusercontent.com/hexanitok-hue/tuff/refs/heads/main/enabled.txt"
-
-local success, result = pcall(function()
-    return HttpService:GetAsync(url)
-end)
-
-if not success or result ~= "enabled" then
-    return
-end
+enabled
