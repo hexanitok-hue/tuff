@@ -1,6 +1,6 @@
 local HttpService = game:GetService("HttpService")
 
-local url = "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/enabled.txt"
+local url = "https://raw.githubusercontent.com/hexanitok-hue/tuff/refs/heads/main/enabled.txt"
 
 local success, result = pcall(function()
     return HttpService:GetAsync(url)
